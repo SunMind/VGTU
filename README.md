@@ -1,0 +1,2 @@
+# VGTU
+Baigiamojo darbo projektas
