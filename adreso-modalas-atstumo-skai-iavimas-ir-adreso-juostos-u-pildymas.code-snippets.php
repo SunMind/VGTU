@@ -16,7 +16,7 @@ add_action('wp_footer', function() {
     </div>
 
     <!-- ✅ Google Maps Places API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3YkNGPwswa8eGfRQYeS_6ixIS5I6gm2o&libraries=places&callback=initAutocomplete" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=Apikeu&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script>
     function initAutocomplete() {
