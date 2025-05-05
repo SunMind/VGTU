@@ -1,0 +1,108 @@
+<section class="hero-banner" style="position: relative; text-align: center; color: white; overflow: hidden; border-radius: 20px; margin-bottom: 30px;">
+  <img src="https://kaimoproduktai.lt/wp-content/uploads/2025/04/hp-cover.png" alt="Kaimo produktų viršelis" style="width: 100%; max-height: 300px; object-fit: cover;">
+
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+              background: rgba(0, 0, 0, 0.4); display: flex; flex-direction: column;
+              justify-content: center; align-items: center; padding: 20px;">
+    
+    <p style="font-size: 18px; margin-bottom: 20px;">Atrask lietuvišką kokybę tiesiai iš kaimo</p>
+
+    <a href="/ukininko-rinkinys" style="background-color: #eee8dc; color: #333;
+       padding: 10px 20px; border-radius: 8px; text-decoration: none;
+       font-weight: 600; transition: background 0.3s ease;"
+       onmouseover="this.style.background='#e0dbcd'" 
+       onmouseout="this.style.background='#eee8dc'">
+      Naršyti ūkius
+    </a>
+  </div>
+</section>
+<!-- ===== 2. Misijos blokas ===== -->
+<section style="padding: 40px 20px; background:#f8f4ec; text-align:center;">
+  <div style="max-width:800px;margin:auto;">
+    <h2 style="font-size:24px;margin-bottom:20px;">Kodėl verta rinktis Kaimoproduktai.lt?</h2>
+    <p style="font-size:16px;color:#555;line-height:1.6">
+      Esame technologinė platforma, kuri tiesiogiai sujungia pirkėjus su Lietuvos smulkiaisiais ūkininkais.
+      Čia rasite šviežius, natūralius produktus be jokių tarpininkų – nuo kiaušinių iki medaus.
+    </p>
+  </div>
+</section>
+
+<!-- ===== 3. Ūkių galerija ===== -->
+<section style="padding:60px 20px;">
+  <div style="max-width:1200px;margin:auto;">
+    <h2 style="font-size:24px;text-align:center;margin-bottom:40px;">Mūsų ūkininkai</h2>
+
+    <!-- shortcode rodo visus ūkius kortelėmis -->
+    [featured_farmers]
+  </div>
+</section>
+
+<!-- ===== 4. Populiariausi produktai ===== -->
+<section style="padding:60px 20px;background:#fffaf3;">
+  <div style="max-width:1200px;margin:auto;">
+    <h2 style="font-size:24px;text-align:center;margin-bottom:40px;">Populiariausi produktai</h2>
+
+    <!-- WooCommerce shortcode – rodo 4 populiariausius -->
+    [products limit="4" columns="4" orderby="popularity"]
+
+    <div style="text-align:center;margin-top:30px;">
+      <a href="/shop"
+         style="display:inline-block;padding:12px 24px;background:#eee8dc;color:#333;
+                border-radius:8px;font-weight:600;text-decoration:none;
+                transition:background .3s"
+         onmouseover="this.style.background='#e0dbcd'"
+         onmouseout="this.style.background='#eee8dc'">
+        Peržiūrėti visą katalogą
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="padding:60px 20px;">
+  <div style="max-width:1000px;margin:auto;text-align:center;">
+    <h2 style="font-size:24px;margin-bottom:40px;">Kaip tai veikia?</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;">
+      
+      <div style="padding:20px;background:#fffef8;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.05);">
+        <div style="font-size:48px;margin-bottom:10px;">🛒</div>
+        <h3 style="margin:0 0 10px;">Rinkis produktus iš norimų ūkių</h3>
+        <p style="font-size:14px;color:#555;">Naršyk po ūkius, susipažink su jų produkcija ir dėliokis savo krepšelį pagal tai, ką mėgsti.</p>
+      </div>
+
+      <div style="padding:20px;background:#fffef8;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.05);">
+        <div style="font-size:48px;margin-bottom:10px;">💳</div>
+        <h3 style="margin:0 0 10px;">Apmokėk internetu</h3>
+        <p style="font-size:14px;color:#555;">Užsakymą apmokėk iš karto – tavo prekės bus rezervuotos ir perduotos pasiruošimui.</p>
+      </div>
+
+      <div style="padding:20px;background:#fffef8;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.05);">
+        <div style="font-size:48px;margin-bottom:10px;">🚛</div>
+        <h3 style="margin:0 0 10px;">Vienas bendras pristatymas</h3>
+        <p style="font-size:14px;color:#555;">Užsakymai iš kelių ūkių pasieks tave vienoje siuntoje, tau patogiu metu, tiesiai iki namų. Arba atvyk į ūkį ir pasiimk užsakymą pats</p>
+      </div>
+
+      <div style="padding:20px;background:#fffef8;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.05);">
+        <div style="font-size:48px;margin-bottom:10px;">🧠</div>
+        <h3 style="margin:0 0 10px;">Pristatome pasitelkę dirbtinį intelektą</h3>
+        <p style="font-size:14px;color:#555;">Produktus pristatysime kiekvieną penktadienį, pasitelkę DI optimaliausiam maršrutui planuoti.  
+        Taip kartu prisidedate prie efektyvumo ir mažesnės taršos.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ===== 6. Pabaigos CTA ===== -->
+<section style="padding:60px 20px;background:#f8f4ec;text-align:center;">
+  <h2 style="font-size:26px;margin-bottom:20px;">Prisijunk prie mūsų bendruomenės!</h2>
+  <a href="/ukininko-rinkinys"
+     style="display:inline-block;padding:14px 28px;background:#008e5d;color:#fff;
+            border-radius:8px;font-weight:600;text-decoration:none;
+            transition:opacity .3s" onmouseover="this.style.opacity='0.85'"
+            onmouseout="this.style.opacity='1'">
+    Naršyti ūkius
+  </a>
+</section>
